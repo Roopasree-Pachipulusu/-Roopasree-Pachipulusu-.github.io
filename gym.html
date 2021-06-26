@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roopa Fittness</title>
+    <link rel="stylesheet" href="gym.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+    <style>
+
+        body{
+            font-family:'Baloo Bhai 2', cursive;
+            color: aliceblue;
+            margin: 0px;
+            padding: 0px;
+            background: url("img/pexels-leon-ardho-1552242.jpg");
+        }
+        
+        .left{
+
+display: inline-block;
+position: absolute;
+            left: 34px;
+            top: 22px;
+
+        }
+        .left img{
+            width: 90px;
+    height: 43px;
+    
+        }
+        .mid{
+           
+            display: block;
+            width: 43%;
+            margin:22px auto;
+
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 32px;
+          
+            display: inline-block;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            color: aliceblue;
+            display: inline-block;
+            list-style: none;
+            font-size: 16px;
+        }
+        .navbar li a{
+            font-size: larger;
+            color: coral;
+            text-decoration: none;
+            padding: 34px 23px;
+/* font-size: 16px; */
+        }
+        .navbar li a:hover{
+            color: aliceblue;
+            text-decoration: underline;
+        }
+            .left .blog{
+                font-size: 20px;
+text-align: center;
+color:coral;
+line-height: 0px;
+            }
+            .btn{
+               cursor:pointer; 
+               border-radius: 10px;
+               background-color:rgba(1, 1, 19, 0.123);
+               color: coral;
+               padding: 4px;
+               border: 3px solid purple;
+               margin:4px;
+               font-family:'Baloo Bhai 2', cursive;
+
+            }
+            .btn:hover{
+                color: aliceblue;
+            }
+            .container{
+                border: 2px solid purple;
+    border-radius: 44px;
+    padding: 38px;
+    margin: 121px 112px;
+    width: 33%;
+            }
+            
+
+            
+           .form-group input{
+            font-family:'Baloo Bhai 2', cursive;
+            border-radius: 11px;
+    text-align: center;
+    display: block;
+    width: 269px;
+    margin: 10px auto;
+    padding: 3px;
+    border: 2px solid black;
+               
+           }    
+           .container button{
+               align-self: center;
+           }
+           .container h2{
+               text-align: center;
+               color: coral;
+           }
+           .container .btn{
+display:block;
+width:19%;
+margin :auto;
+           }
+    </style>
+
+</head>
+<body>
+    <header class="header"> 
+        <div class="left">
+<img src="img/logo 5.jpg" alt="">
+<div class="blog">Roopa Fitness
+    </div>
+
+        </div>
+        <div class="mid">
+<ul class ="navbar">
+    <li><a href="#" >Home</a></li>
+    <li><a href="#" >About us</a></li>
+    <li><a href="#" >Fittness Calculator</a></li>
+    <li><a href="#" >Contact us</a></li>
+</ul>
+</div>
+<div class="right">
+    <button class="btn">
+        sign in
+    </button>
+    <button class="btn">
+        sign up
+    </button>
+
+</div>
+    </header>
+    <div class="container">
+        <h2 >Join the Best GYM of Banglore now!!!</h2>
+        
+<form action="noaction.php">
+    <div class="form-group">
+        <input type="text" name="" placeholder="enter your name">
+
+    </div>
+    <div class="form-group"><input type="text" phn no="" placeholder="enter your mobile no"></div>
+    
+    <div class="form-group"><input type="text" email="" placeholder="enter your email"></div>
+    <div class="form-group"><input type="text" gender="" placeholder="enter your gender"></div>
+    <button class="btn">
+        submit
+    </button>
+</form>
+    </div>
+</body>
+</html>
